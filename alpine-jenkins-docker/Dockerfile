@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.93-alpine
+FROM jenkins/jenkins:2.101-alpine
 USER root
 RUN apk update \
     && apk add docker --no-cache \
@@ -8,4 +8,4 @@ RUN apk update \
 
 VOLUME /var/run/docker.sock
 USER jenkins
-MAINTAINER Wasith Theerapattrathamrong <phaicpe@gmail.com>
+LABEL maintainer="Wasith Theerapattrathamrong <phaicpe@gmail.com>"
