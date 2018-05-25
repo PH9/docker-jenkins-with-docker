@@ -1,1 +1,1 @@
-docker build --no-cache -t wasith/jenkins-docker:2.116 .
+docker build --no-cache -t wasith/jenkins-docker:2.118 .
