@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.118
+FROM jenkins/jenkins:2.124
 USER root
 RUN wget -qO- https://get.docker.com | sh && addgroup jenkins docker
 VOLUME /var/run/docker.sock
